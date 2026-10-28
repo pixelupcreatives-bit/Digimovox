@@ -1,0 +1,518 @@
+{
+  "blog": [
+    {
+      "slug": "how-to-choose-graphic-design-style",
+      "title": "How to Choose the Right Graphic Design Style for Your Business",
+      "category": "Graphic Design",
+      "primaryKeyword": "graphic design style for business",
+      "secondaryKeywords": [
+        "brand visual style",
+        "design for small business",
+        "visual identity"
+      ],
+      "metaTitle": "How to Choose the Right Graphic Design Style for Your Business | MovoX",
+      "metaDescription": "Learn how to choose a graphic design style that fits your business. Practical guidance from MovoX, a digital growth agency in India.",
+      "excerpt": "Your visual style shapes how customers perceive your brand. Here's how to choose a graphic design approach that supports your goals.",
+      "author": "MovoX Team",
+      "publishedAt": "2024-01-15",
+      "readTime": "5 min read",
+      "image": "/images/blog/graphic-design-style.svg",
+      "alt": "Graphic design style examples",
+      "content": [
+        {
+          "type": "h2",
+          "text": "Why graphic design style matters"
+        },
+        {
+          "type": "p",
+          "text": "The design style you choose sets the tone for every customer touchpoint — from your logo and social media to your website and packaging. A consistent style makes your brand easier to recognise and remember."
+        },
+        {
+          "type": "h2",
+          "text": "Common design styles"
+        },
+        {
+          "type": "list",
+          "text": "Minimalist: clean, uncluttered layouts with plenty of whitespace.\nModern: bold typography and contemporary colour use.\nTraditional: established, trustworthy visual cues.\nPlayful: bright colours and informal imagery for consumer brands."
+        },
+        {
+          "type": "h2",
+          "text": "Matching style to your audience"
+        },
+        {
+          "type": "p",
+          "text": "Choose a style that reflects your customers' expectations and your brand values. A professional services firm may benefit from a restrained, modern style, while a consumer brand might use bolder, more playful visuals."
+        }
+      ],
+      "related": [
+        "why-consistent-brand-identity",
+        "how-to-plan-digital-marketing-strategy"
+      ],
+      "ctaLabel": "Explore Graphic Design Services",
+      "ctaUrl": "/services/graphic-design"
+    },
+    {
+      "slug": "why-consistent-brand-identity",
+      "title": "Why Every Business Needs a Consistent Brand Identity",
+      "category": "Branding",
+      "primaryKeyword": "consistent brand identity business",
+      "secondaryKeywords": [
+        "brand guidelines",
+        "logo design",
+        "brand consistency"
+      ],
+      "metaTitle": "Why Every Business Needs a Consistent Brand Identity | MovoX",
+      "metaDescription": "Understand why a consistent brand identity matters for your business. Branding & packaging design services from MovoX.",
+      "excerpt": "A consistent brand identity builds trust and recognition. Learn why it matters and how to maintain it across every channel.",
+      "author": "MovoX Team",
+      "publishedAt": "2024-02-01",
+      "readTime": "6 min read",
+      "image": "/images/blog/brand-identity.svg",
+      "alt": "Brand identity elements",
+      "content": [
+        {
+          "type": "h2",
+          "text": "What is brand identity?"
+        },
+        {
+          "type": "p",
+          "text": "Brand identity is the collection of visual and verbal elements — logo, colours, typography, tone of voice — that represent your business to the world."
+        },
+        {
+          "type": "h2",
+          "text": "Benefits of consistency"
+        },
+        {
+          "type": "list",
+          "text": "Recognition: customers recognise your brand across channels.\nTrust: consistent presentation signals professionalism.\nEfficiency: brand guidelines speed up future design work."
+        },
+        {
+          "type": "h2",
+          "text": "Maintaining consistency"
+        },
+        {
+          "type": "p",
+          "text": "Document your brand in a guidelines document and apply it across your website, social media, print materials and packaging."
+        }
+      ],
+      "related": [
+        "how-to-choose-graphic-design-style",
+        "website-design-vs-development"
+      ],
+      "ctaLabel": "Explore Branding Services",
+      "ctaUrl": "/services/branding-packaging"
+    },
+    {
+      "slug": "what-makes-business-website-effective",
+      "title": "What Makes a Business Website Effective?",
+      "category": "Web Development",
+      "primaryKeyword": "effective business website",
+      "secondaryKeywords": [
+        "website design",
+        "small business website",
+        "conversion"
+      ],
+      "metaTitle": "What Makes a Business Website Effective? | MovoX",
+      "metaDescription": "Discover the elements of an effective business website. Website development services from MovoX.",
+      "excerpt": "An effective website does more than look good. It serves your business goals and helps visitors take the next step.",
+      "author": "MovoX Team",
+      "publishedAt": "2024-02-20",
+      "readTime": "7 min read",
+      "image": "/images/blog/effective-website.svg",
+      "alt": "Effective business website",
+      "content": [
+        {
+          "type": "h2",
+          "text": "Clear purpose"
+        },
+        {
+          "type": "p",
+          "text": "Every page should have a clear objective — whether that's informing, generating an enquiry or completing a sale."
+        },
+        {
+          "type": "h2",
+          "text": "Performance and usability"
+        },
+        {
+          "type": "list",
+          "text": "Fast loading times.\nMobile-responsive design.\nSimple navigation.\nClear contact options."
+        }
+      ],
+      "related": [
+        "website-design-vs-development",
+        "how-much-does-website-cost-india"
+      ],
+      "ctaLabel": "Explore Website Development",
+      "ctaUrl": "/services/website-development"
+    },
+    {
+      "slug": "website-design-vs-development",
+      "title": "Website Design vs Website Development",
+      "category": "Web Development",
+      "primaryKeyword": "website design vs development",
+      "secondaryKeywords": [
+        "web design",
+        "web development",
+        "website build"
+      ],
+      "metaTitle": "Website Design vs Website Development | MovoX",
+      "metaDescription": "Learn the difference between website design and website development. MovoX website services in India.",
+      "excerpt": "Design and development are different stages of building a website. Here's how they work together.",
+      "author": "MovoX Team",
+      "publishedAt": "2024-03-05",
+      "readTime": "5 min read",
+      "image": "/images/blog/design-vs-development.svg",
+      "alt": "Website design and development",
+      "content": [
+        {
+          "type": "h2",
+          "text": "Website design"
+        },
+        {
+          "type": "p",
+          "text": "Design focuses on how the website looks and feels — layout, colours, typography and user experience."
+        },
+        {
+          "type": "h2",
+          "text": "Website development"
+        },
+        {
+          "type": "p",
+          "text": "Development turns the design into a functioning website — code, interactivity, performance and deployment."
+        },
+        {
+          "type": "h2",
+          "text": "How they work together"
+        },
+        {
+          "type": "p",
+          "text": "At MovoX, design and development are handled by one connected team, so the final website matches the approved design and performs well."
+        }
+      ],
+      "related": [
+        "what-makes-business-website-effective",
+        "how-much-does-website-cost-india"
+      ],
+      "ctaLabel": "Start Your Project",
+      "ctaUrl": "/start-a-project"
+    },
+    {
+      "slug": "how-much-does-website-cost-india",
+      "title": "How Much Does Website Development Cost in India?",
+      "category": "Web Development",
+      "primaryKeyword": "website development cost India",
+      "secondaryKeywords": [
+        "website price India",
+        "business website cost",
+        "website packages"
+      ],
+      "metaTitle": "How Much Does Website Development Cost in India? | MovoX",
+      "metaDescription": "Find out what website development costs in India. Transparent pricing from MovoX digital growth agency.",
+      "excerpt": "Website costs in India depend on scope, features and complexity. Here's what to expect across different project types.",
+      "author": "MovoX Team",
+      "publishedAt": "2024-03-18",
+      "readTime": "6 min read",
+      "image": "/images/blog/website-cost-india.svg",
+      "alt": "Website cost in India",
+      "content": [
+        {
+          "type": "h2",
+          "text": "Factors that affect cost"
+        },
+        {
+          "type": "list",
+          "text": "Number of pages.\nDesign complexity.\nE-commerce functionality.\nContent management system.\nCustom features."
+        },
+        {
+          "type": "h2",
+          "text": "Indicative starting prices"
+        },
+        {
+          "type": "p",
+          "text": "MovoX website packages start at ₹9,999 for a starter landing page, ₹19,999 for a business website and ₹39,999 for a premium website. Final pricing depends on scope."
+        }
+      ],
+      "related": [
+        "what-makes-business-website-effective",
+        "website-design-vs-development"
+      ],
+      "ctaLabel": "View Pricing",
+      "ctaUrl": "/pricing"
+    },
+    {
+      "slug": "how-to-prepare-mobile-app",
+      "title": "What Should You Prepare Before Developing a Mobile App?",
+      "category": "App Development",
+      "primaryKeyword": "prepare before mobile app development",
+      "secondaryKeywords": [
+        "app MVP",
+        "mobile app planning",
+        "app development India"
+      ],
+      "metaTitle": "What to Prepare Before Developing a Mobile App | MovoX",
+      "metaDescription": "Prepare for mobile app development with this practical guide. App development services from MovoX.",
+      "excerpt": "Before development begins, there's groundwork to do. Here's what to prepare for a smoother app build.",
+      "author": "MovoX Team",
+      "publishedAt": "2024-04-02",
+      "readTime": "6 min read",
+      "image": "/images/blog/prepare-mobile-app.svg",
+      "alt": "Mobile app preparation",
+      "content": [
+        {
+          "type": "h2",
+          "text": "Define the core problem"
+        },
+        {
+          "type": "p",
+          "text": "Be clear about the problem your app solves and who it's for. This shapes the feature set and platform choice."
+        },
+        {
+          "type": "h2",
+          "text": "Choose the platform"
+        },
+        {
+          "type": "list",
+          "text": "Android, iOS or cross-platform.\nConsider your target audience's devices.\nMVP vs full-featured launch."
+        },
+        {
+          "type": "h2",
+          "text": "Plan the backend"
+        },
+        {
+          "type": "p",
+          "text": "Decide what data the app needs to store, whether users need accounts and which integrations are required."
+        }
+      ],
+      "related": [
+        "how-to-plan-digital-marketing-strategy",
+        "common-website-mistakes"
+      ],
+      "ctaLabel": "Explore App Development",
+      "ctaUrl": "/services/app-development"
+    },
+    {
+      "slug": "seo-basics-business-owner",
+      "title": "SEO Basics Every Business Owner Should Understand",
+      "category": "Digital Marketing",
+      "primaryKeyword": "SEO basics for business owners",
+      "secondaryKeywords": [
+        "search engine optimisation",
+        "local SEO India",
+        "SEO for small business"
+      ],
+      "metaTitle": "SEO Basics Every Business Owner Should Understand | MovoX",
+      "metaDescription": "Learn SEO basics every business owner should know. SEO services from MovoX, India.",
+      "excerpt": "Search engine optimisation helps your business get found online. Here are the fundamentals every owner should know.",
+      "author": "MovoX Team",
+      "publishedAt": "2024-04-15",
+      "readTime": "7 min read",
+      "image": "/images/blog/seo-basics.svg",
+      "alt": "SEO basics",
+      "content": [
+        {
+          "type": "h2",
+          "text": "How search works"
+        },
+        {
+          "type": "p",
+          "text": "Search engines rank pages based on relevance and authority. Technical health, content quality and links all play a role."
+        },
+        {
+          "type": "h2",
+          "text": "Key areas to focus on"
+        },
+        {
+          "type": "list",
+          "text": "Keyword research.\nOn-page optimisation.\nTechnical SEO.\nLocal SEO for location-based businesses."
+        },
+        {
+          "type": "h2",
+          "text": "Set realistic expectations"
+        },
+        {
+          "type": "p",
+          "text": "SEO is a medium- to long-term investment. Avoid anyone promising guaranteed rankings."
+        }
+      ],
+      "related": [
+        "how-much-does-website-cost-india",
+        "how-to-plan-digital-marketing-strategy"
+      ],
+      "ctaLabel": "Explore SEO Services",
+      "ctaUrl": "/services/digital-marketing"
+    },
+    {
+      "slug": "consistent-social-media-brand-identity",
+      "title": "How to Create a Consistent Social Media Brand Identity",
+      "category": "Digital Marketing",
+      "primaryKeyword": "consistent social media brand identity",
+      "secondaryKeywords": [
+        "social media branding",
+        "social media design",
+        "Instagram branding"
+      ],
+      "metaTitle": "How to Create a Consistent Social Media Brand Identity | MovoX",
+      "metaDescription": "Learn to build a consistent brand identity across social media. Social media marketing services from MovoX.",
+      "excerpt": "Consistency across social platforms helps your audience recognise and trust your brand. Here's how to achieve it.",
+      "author": "MovoX Team",
+      "publishedAt": "2024-05-01",
+      "readTime": "5 min read",
+      "image": "/images/blog/social-brand-identity.svg",
+      "alt": "Social media brand identity",
+      "content": [
+        {
+          "type": "h2",
+          "text": "Use brand elements everywhere"
+        },
+        {
+          "type": "p",
+          "text": "Apply your logo, colours and fonts consistently across profile images, posts and stories."
+        },
+        {
+          "type": "h2",
+          "text": "Plan with a content calendar"
+        },
+        {
+          "type": "p",
+          "text": "A content calendar keeps posting regular and aligned with your brand voice and campaigns."
+        }
+      ],
+      "related": [
+        "why-consistent-brand-identity",
+        "how-to-plan-digital-marketing-strategy"
+      ],
+      "ctaLabel": "Explore Social Media Marketing",
+      "ctaUrl": "/services/digital-marketing"
+    },
+    {
+      "slug": "how-to-plan-digital-marketing-strategy",
+      "title": "How to Plan a Digital Marketing Strategy for a Small Business",
+      "category": "Digital Marketing",
+      "primaryKeyword": "digital marketing strategy small business",
+      "secondaryKeywords": [
+        "marketing plan",
+        "small business marketing India",
+        "digital strategy"
+      ],
+      "metaTitle": "How to Plan a Digital Marketing Strategy for a Small Business | MovoX",
+      "metaDescription": "Plan a digital marketing strategy for your small business. Digital marketing services from MovoX.",
+      "excerpt": "A clear strategy helps small businesses invest in the right channels. Here's how to get started.",
+      "author": "MovoX Team",
+      "publishedAt": "2024-05-15",
+      "readTime": "7 min read",
+      "image": "/images/blog/digital-marketing-strategy.svg",
+      "alt": "Digital marketing strategy",
+      "content": [
+        {
+          "type": "h2",
+          "text": "Set clear goals"
+        },
+        {
+          "type": "p",
+          "text": "Decide what success looks like — enquiries, sales, brand awareness or website traffic."
+        },
+        {
+          "type": "h2",
+          "text": "Choose the right channels"
+        },
+        {
+          "type": "list",
+          "text": "Search engine optimisation.\nSocial media.\nPaid advertising.\nContent marketing."
+        },
+        {
+          "type": "h2",
+          "text": "Measure and adjust"
+        },
+        {
+          "type": "p",
+          "text": "Track results monthly and adjust your approach based on what's working."
+        }
+      ],
+      "related": [
+        "seo-basics-business-owner",
+        "consistent-social-media-brand-identity"
+      ],
+      "ctaLabel": "Explore Digital Marketing",
+      "ctaUrl": "/services/digital-marketing"
+    },
+    {
+      "slug": "common-website-mistakes",
+      "title": "Common Website Mistakes That Can Cost You Leads",
+      "category": "Web Development",
+      "primaryKeyword": "website mistakes cost leads",
+      "secondaryKeywords": [
+        "website conversion",
+        "small business website",
+        "website usability"
+      ],
+      "metaTitle": "Common Website Mistakes That Can Cost You Leads | MovoX",
+      "metaDescription": "Avoid common website mistakes that cost leads. Website development services from MovoX.",
+      "excerpt": "Small website issues can drive potential customers away. Here are the most common mistakes to avoid.",
+      "author": "MovoX Team",
+      "publishedAt": "2024-06-01",
+      "readTime": "6 min read",
+      "image": "/images/blog/website-mistakes.svg",
+      "alt": "Common website mistakes",
+      "content": [
+        {
+          "type": "h2",
+          "text": "Slow loading times"
+        },
+        {
+          "type": "p",
+          "text": "Visitors leave when pages take too long to load. Optimise images and use reliable hosting."
+        },
+        {
+          "type": "h2",
+          "text": "Unclear call to action"
+        },
+        {
+          "type": "p",
+          "text": "Every page should tell the visitor what to do next — contact you, request a quote or explore services."
+        },
+        {
+          "type": "h2",
+          "text": "Poor mobile experience"
+        },
+        {
+          "type": "p",
+          "text": "Most visitors browse on phones. Your website must work well on mobile devices."
+        }
+      ],
+      "related": [
+        "what-makes-business-website-effective",
+        "website-design-vs-development"
+      ],
+      "ctaLabel": "Request a Website Audit",
+      "ctaUrl": "/start-a-project"
+    }
+  ],
+  "portfolio": [
+    {
+      "slug": "demo-template-project",
+      "name": "Template Project (Demo)",
+      "industry": "Professional Services",
+      "services": [
+        "Branding",
+        "Website Development"
+      ],
+      "thumbnail": "/images/portfolio/demo-placeholder.svg",
+      "gallery": [],
+      "overview": "This is a reusable portfolio template. Replace with a genuine project once client permission is obtained.",
+      "challenge": "Placeholder challenge description.",
+      "objectives": [
+        "Placeholder objective 1",
+        "Placeholder objective 2"
+      ],
+      "strategy": "Placeholder strategy description.",
+      "execution": "Placeholder execution description.",
+      "deliverables": [
+        "Placeholder deliverable 1",
+        "Placeholder deliverable 2"
+      ],
+      "related": [],
+      "featured": false,
+      "demo": true
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# MovoX robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://www.heymovox.com/sitemap.xml

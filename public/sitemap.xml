@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.heymovox.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.heymovox.com/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.heymovox.com/services</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.heymovox.com/services/graphic-design</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.heymovox.com/services/branding-packaging</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.heymovox.com/services/website-development</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.heymovox.com/services/app-development</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.heymovox.com/services/digital-marketing</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.heymovox.com/pricing</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.heymovox.com/contact</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.heymovox.com/start-a-project</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.heymovox.com/work</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.heymovox.com/insights</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.heymovox.com/privacy-policy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://www.heymovox.com/terms-and-conditions</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+</urlset>

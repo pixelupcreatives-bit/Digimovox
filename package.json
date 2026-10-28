@@ -1,0 +1,45 @@
+{
+  "name": "movox-website",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k -n \"web,api\" -c \"blue,green\" \"npm:dev:client\" \"npm:dev:worker\"",
+    "dev:client": "vite",
+    "dev:worker": "npm --prefix worker run dev",
+    "build": "tsc && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "worker:types": "npm --prefix worker run types",
+    "worker:deploy": "npm --prefix worker run deploy",
+    "db:migrate": "node worker/scripts/migrate.mjs"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.0",
+    "clsx": "^2.1.1",
+    "concurrently": "^10.0.6",
+    "framer-motion": "^11.3.24",
+    "lucide-react": "^0.454.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.53.0",
+    "react-router-dom": "^6.26.2",
+    "tailwind-merge": "^2.5.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.18",
+    "eslint": "^9.9.0",
+    "globals": "^15.9.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.72.1",
+    "vite": "^5.4.2"
+  }
+}
