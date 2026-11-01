@@ -20,6 +20,7 @@ import { PrivacyPolicy } from "@/pages/legal/PrivacyPolicy";
 import { TermsOfService } from "@/pages/legal/TermsOfService";
 import { AdminLayout } from "@/admin/AdminLayout";
 import { RequireAuth } from "@/admin/guards";
+import { AnalyticsTracker } from "@/lib/analytics";
 
 // Admin pages are code-split so the public site bundle stays lean.
 const AdminLogin = lazy(() => import("@/admin/pages/AdminLogin").then((m) => ({ default: m.AdminLogin })));
@@ -41,80 +42,81 @@ const SettingsPage = lazy(() => import("@/admin/pages/SettingsPage").then((m) =>
 
 function AdminFallback() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-bg-soft">
-      <Loader2 className="w-7 h-7 animate-spin text-primary" aria-label="Loading" />
-    </div>
+    &lt;div className="flex min-h-screen items-center justify-center bg-bg-soft"&gt;
+      &lt;Loader2 className="w-7 h-7 animate-spin text-primary" aria-label="Loading" /&gt;
+    &lt;/div&gt;
   );
 }
 
 function WithFallback({ children }: { children: ReactNode }) {
-  return <Suspense fallback={<AdminFallback />}>{children}</Suspense>;
+  return &lt;Suspense fallback={&lt;AdminFallback /&gt;}&gt;{children}&lt;/Suspense&gt;;
 }
 
 export function Router() {
   return (
-    <BrowserRouter>
-      <Routes>
+    &lt;BrowserRouter&gt;
+      &lt;AnalyticsTracker /&gt;
+      &lt;Routes&gt;
         {/* Public website */}
-        <Route element={<MainLayout />}>
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="services" element={<Services />} />
-          <Route path="services/:slug" element={<ServiceDetail />} />
-          <Route path="pricing" element={<Pricing />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="start-a-project" element={<StartProject />} />
-          <Route path="work" element={<Portfolio />} />
-          <Route path="work/:slug" element={<PortfolioDetail />} />
-          <Route path="insights" element={<Insights />} />
-          <Route path="insights/category/:slug" element={<InsightCategory />} />
-          <Route path="insights/:slug" element={<InsightDetail />} />
-          <Route path="thank-you" element={<ThankYou />} />
-          <Route path="policies/privacy" element={<PrivacyPolicy />} />
-          <Route path="policies/terms" element={<TermsOfService />} />
-          <Route path="privacy-policy" element={<Navigate to="/policies/privacy" replace />} />
-          <Route path="terms-and-conditions" element={<Navigate to="/policies/terms" replace />} />
-          <Route path="*" element={<NotFound />} />
-        </Route>
+        &lt;Route element={&lt;MainLayout /&gt;}&gt;
+          &lt;Route index element={&lt;Home /&gt;} /&gt;
+          &lt;Route path="about" element={&lt;About /&gt;} /&gt;
+          &lt;Route path="services" element={&lt;Services /&gt;} /&gt;
+          &lt;Route path="services/:slug" element={&lt;ServiceDetail /&gt;} /&gt;
+          &lt;Route path="pricing" element={&lt;Pricing /&gt;} /&gt;
+          &lt;Route path="contact" element={&lt;Contact /&gt;} /&gt;
+          &lt;Route path="start-a-project" element={&lt;StartProject /&gt;} /&gt;
+          &lt;Route path="work" element={&lt;Portfolio /&gt;} /&gt;
+          &lt;Route path="work/:slug" element={&lt;PortfolioDetail /&gt;} /&gt;
+          &lt;Route path="insights" element={&lt;Insights /&gt;} /&gt;
+          &lt;Route path="insights/category/:slug" element={&lt;InsightCategory /&gt;} /&gt;
+          &lt;Route path="insights/:slug" element={&lt;InsightDetail /&gt;} /&gt;
+          &lt;Route path="thank-you" element={&lt;ThankYou /&gt;} /&gt;
+          &lt;Route path="policies/privacy" element={&lt;PrivacyPolicy /&gt;} /&gt;
+          &lt;Route path="policies/terms" element={&lt;TermsOfService /&gt;} /&gt;
+          &lt;Route path="privacy-policy" element={&lt;Navigate to="/policies/privacy" replace /&gt;} /&gt;
+          &lt;Route path="terms-and-conditions" element={&lt;Navigate to="/policies/terms" replace /&gt;} /&gt;
+          &lt;Route path="*" element={&lt;NotFound /&gt;} /&gt;
+        &lt;/Route&gt;
 
         {/* Admin dashboard (own shell, no site header/footer) */}
-        <Route
+        &lt;Route
           path="admin/login"
           element={
-            <WithFallback>
-              <AdminLogin />
-            </WithFallback>
+            &lt;WithFallback&gt;
+              &lt;AdminLogin /&gt;
+            &lt;/WithFallback&gt;
           }
-        />
-        <Route
+        /&gt;
+        &lt;Route
           path="admin"
           element={
-            <RequireAuth>
-              <AdminLayout />
-            </RequireAuth>
+            &lt;RequireAuth&gt;
+              &lt;AdminLayout /&gt;
+            &lt;/RequireAuth&gt;
           }
-        >
-          <Route index element={<WithFallback><AdminDashboard /></WithFallback>} />
-          <Route path="leads" element={<WithFallback><LeadsPage /></WithFallback>} />
-          <Route path="leads/:id" element={<WithFallback><LeadDetailPage /></WithFallback>} />
-          <Route path="blog" element={<WithFallback><BlogPage /></WithFallback>} />
-          <Route path="blog/new" element={<WithFallback><BlogEditor /></WithFallback>} />
-          <Route path="blog/:slug" element={<WithFallback><BlogEditor /></WithFallback>} />
-          <Route path="portfolio" element={<WithFallback><PortfolioPage /></WithFallback>} />
-          <Route path="portfolio/new" element={<WithFallback><PortfolioEditor /></WithFallback>} />
-          <Route path="portfolio/:slug" element={<WithFallback><PortfolioEditor /></WithFallback>} />
-          <Route path="projects" element={<WithFallback><ProjectsPage /></WithFallback>} />
-          <Route path="agreements" element={<WithFallback><AgreementsPage /></WithFallback>} />
-          <Route path="invoices" element={<WithFallback><InvoicesPage /></WithFallback>} />
-          <Route path="quotations" element={<WithFallback><QuotationsPage /></WithFallback>} />
-          <Route path="revenue" element={<WithFallback><RevenuePage /></WithFallback>} />
-          <Route path="files" element={<WithFallback><FilesPage /></WithFallback>} />
-          <Route path="users" element={<WithFallback><UsersPage /></WithFallback>} />
-          <Route path="settings" element={<WithFallback><SettingsPage /></WithFallback>} />
-        </Route>
+        &gt;
+          &lt;Route index element={&lt;WithFallback&gt;&lt;AdminDashboard /&gt;&lt;/WithFallback&gt;} /&gt;
+          &lt;Route path="leads" element={&lt;WithFallback&gt;&lt;LeadsPage /&gt;&lt;/WithFallback&gt;} /&gt;
+          &lt;Route path="leads/:id" element={&lt;WithFallback&gt;&lt;LeadDetailPage /&gt;&lt;/WithFallback&gt;} /&gt;
+          &lt;Route path="blog" element={&lt;WithFallback&gt;&lt;BlogPage /&gt;&lt;/WithFallback&gt;} /&gt;
+          &lt;Route path="blog/new" element={&lt;WithFallback&gt;&lt;BlogEditor /&gt;&lt;/WithFallback&gt;} /&gt;
+          &lt;Route path="blog/:slug" element={&lt;WithFallback&gt;&lt;BlogEditor /&gt;&lt;/WithFallback&gt;} /&gt;
+          &lt;Route path="portfolio" element={&lt;WithFallback&gt;&lt;PortfolioPage /&gt;&lt;/WithFallback&gt;} /&gt;
+          &lt;Route path="portfolio/new" element={&lt;WithFallback&gt;&lt;PortfolioEditor /&gt;&lt;/WithFallback&gt;} /&gt;
+          &lt;Route path="portfolio/:slug" element={&lt;WithFallback&gt;&lt;PortfolioEditor /&gt;&lt;/WithFallback&gt;} /&gt;
+          &lt;Route path="projects" element={&lt;WithFallback&gt;&lt;ProjectsPage /&gt;&lt;/WithFallback&gt;} /&gt;
+          &lt;Route path="agreements" element={&lt;WithFallback&gt;&lt;AgreementsPage /&gt;&lt;/WithFallback&gt;} /&gt;
+          &lt;Route path="invoices" element={&lt;WithFallback&gt;&lt;InvoicesPage /&gt;&lt;/WithFallback&gt;} /&gt;
+          &lt;Route path="quotations" element={&lt;WithFallback&gt;&lt;QuotationsPage /&gt;&lt;/WithFallback&gt;} /&gt;
+          &lt;Route path="revenue" element={&lt;WithFallback&gt;&lt;RevenuePage /&gt;&lt;/WithFallback&gt;} /&gt;
+          &lt;Route path="files" element={&lt;WithFallback&gt;&lt;FilesPage /&gt;&lt;/WithFallback&gt;} /&gt;
+          &lt;Route path="users" element={&lt;WithFallback&gt;&lt;UsersPage /&gt;&lt;/WithFallback&gt;} /&gt;
+          &lt;Route path="settings" element={&lt;WithFallback&gt;&lt;SettingsPage /&gt;&lt;/WithFallback&gt;} /&gt;
+        &lt;/Route&gt;
 
-        <Route path="404" element={<NotFound />} />
-      </Routes>
-    </BrowserRouter>
+        &lt;Route path="404" element={&lt;NotFound /&gt;} /&gt;
+      &lt;/Routes&gt;
+    &lt;/BrowserRouter&gt;
   );
 }
